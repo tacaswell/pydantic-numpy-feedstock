@@ -1,5 +1,5 @@
 {% set name = "pydantic-numpy" %}
-{% set version = "8.0.1" %}
+{% set version = "9.0.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pydantic_numpy-{{ version }}.tar.gz
-  sha256: 85ae382ff4ebd23902791f6710d26f039a6215670d8c128ac30d5b79171fde13
+  sha256: 6800dd07cb11d51d255468fed418b0ccd47e4f7665129f3d85cead3767e31110
 
 build:
   noarch: python
