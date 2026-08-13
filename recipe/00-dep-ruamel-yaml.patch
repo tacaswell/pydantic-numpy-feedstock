@@ -1,0 +1,13 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index ffb80d6..38be670 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -18,7 +18,7 @@ classifiers = [
+ requires-python = ">=3.11,<3.15"
+ dependencies = [
+   "compress-pickle[lz4]",
+-  "ruamel-yaml==0.18",
++  "ruamel-yaml~=0.18.5",
+   "numpy>=2.3.5,<3",
+   "pydantic~=2.12.5",
+   "semver~=3.0.4",
